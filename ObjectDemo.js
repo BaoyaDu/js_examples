@@ -2,6 +2,7 @@
 // See Page 65 of Eloquent JavaScript, A Modern Introduction to Programming by Marijn Haverbeke
 // Run with Node.js: node ./ObjectDemo.js
 
+// Object in CoffeeScript <-> hash in Ruby <-> dictionary in Python.
 var day1 = {
   squirrel: false,
   events: ["work" , "touched tree", "pizza", "running", 65, "television"]
@@ -13,7 +14,8 @@ console.log(day1.squirrel );
 console.log(day1.wolf);
 // → undefined
 
-day1.wolf = false ;
+// Appends key wolf and its value
+day1.wolf = false;
 console.log(day1.wolf);
 // → false
 
