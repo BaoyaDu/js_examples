@@ -86,6 +86,9 @@ function greaterThan(n) {
 var greaterThan10 = greaterThan(10);
 console.log(greaterThan10(11));
 
+console.log(greaterThan(20)(21));
+
+
 // Have functions change other functions
 console.log("--- Have functions change other functions ---");
 function noisy(f) {
@@ -100,6 +103,8 @@ noisy(Boolean)(0);
 // → calling with 0
 // → called with 0 - got false
 noisy(Boolean)(2);
+
+// noisy(100)(2);  It's false
 
 // You can even write functions that provide new types of control flow
 console.log("--- Have functions provide new types of control flow ---");

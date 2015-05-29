@@ -1,3 +1,6 @@
+// Create on May 28, 2015 Thu.
+// See http://coffeescript.org/
+
 var awardMedals, contenders, gold, rest, silver,
   __slice = [].slice;
 

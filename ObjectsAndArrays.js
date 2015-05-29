@@ -1,3 +1,6 @@
+// Create on May 28, 2015 Thu.
+// See http://coffeescript.org/
+
 console.log("hello,javascript!");
 
 var kids, lists, singers, song;

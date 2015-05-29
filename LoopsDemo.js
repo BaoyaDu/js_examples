@@ -1,3 +1,6 @@
+// Create on May 28, 2015 Thu.
+// See http://coffeescript.org/
+
 var arrvalue, countdown, countdown11, num, str;
 
 // In coffeescript : countdown = (num for num in [10..1])
