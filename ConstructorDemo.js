@@ -19,9 +19,11 @@ function Animal(name) {
   this.smellsLike = "bad";
 }
 
-/* Prototypical Inheritance or behaviour delegation.
+
+/**
+ * Prototypical Inheritance or behaviour delegation.
  * This is how jQuery was built.
- */
+ **/
 Animal.prototype = {
 	member1: function(a, b) {
 	  var c = a + b;
