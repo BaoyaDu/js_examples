@@ -37,7 +37,7 @@ console.log(person.getName());
 var colors = ['red', 'yellow', 'blue', 'green']; // array
 for (var i = 0; i < colors.length; i++) {
 //  return function(j) {
-      console.log(j + ', ' + colors[j]);
+      console.log(i + ', ' + colors[i]);
 //   }(i)
 }
 

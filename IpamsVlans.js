@@ -1,4 +1,3 @@
-
 $(function() {
   return $("[data-xeditable=true]").each(function() {
     return $(this).editable({

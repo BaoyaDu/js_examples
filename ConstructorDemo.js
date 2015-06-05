@@ -20,7 +20,7 @@ function Animal(name) {
 }
 
 /* Prototypical Inheritance or behaviour delegation.
- * Thisis how jQuery was built.
+ * This is how jQuery was built.
  */
 Animal.prototype = {
 	member1: function(a, b) {

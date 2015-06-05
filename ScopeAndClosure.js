@@ -56,7 +56,7 @@ console.log("x = %d", test());
 
 /**
  * Closures starts from 25:00.
- * A closure is a function that references a variable tha isn't contained in
+ * A closure is a function that references a variable that isn't contained in
  * its immediate scope.
  * Every function is actually an object.
  */
