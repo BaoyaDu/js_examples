@@ -70,7 +70,7 @@ var MyClass = function() {
 };
 
 MyClass.prototype.setName = function(_first, _last) {
-	this.first = _frist;
+	this.first = _first;
 	this.last = _last;
 };
 
